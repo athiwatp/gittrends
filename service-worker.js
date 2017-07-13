@@ -285,7 +285,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get(/https:\/\/api\.github\.com\/search\/repositories/, toolbox.networkFirst, {"cache":{"name":"scotchPWA-v4"}});
+toolbox.router.get(/https:\/\/api\.github\.com\/search\/repositories/, toolbox.networkFirst, {"cache":{"name":"scotchPWA-v5"}});
 
 
 
